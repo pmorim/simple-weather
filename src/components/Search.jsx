@@ -9,7 +9,7 @@ import { Pane } from "evergreen-ui/commonjs/layers";
 const margin = 16;
 
 // API variables
-const API_KEY = "e2d09fee3d5b9ea0d5db4e2a8ec2e272"; // Insert your key here
+const API_KEY = ""; // Insert your key here
 const API_BASE_URL = "http://api.openweathermap.org/data/2.5/weather";
 const API_ICON_BASE_URL = "http://openweathermap.org/img/wn/";
 
