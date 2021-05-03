@@ -46,18 +46,20 @@ function App() {
       alignItems="center"
       flexDirection="column"
     >
-      <Heading marginBottom={margin} size={900}>
-        Simple Weather
-      </Heading>
-      <Text marginBottom={3 * margin}>
-        Choose a city to check their weather information
-      </Text>
-      <TextInput
-        marginBottom={margin}
-        placeholder="New York"
-        onChange={(e) => setSearch(e.target.value)}
-      />
-      <Button onClick={() => setCity(search)}>Get Weather</Button>
+      <div>
+        <Heading marginBottom={margin} size={900}>
+          Simple Weather
+        </Heading>
+        <Text marginBottom={3 * margin}>
+          Choose a city to check their weather information
+        </Text>
+        <TextInput
+          marginBottom={margin}
+          placeholder="New York"
+          onChange={(e) => setSearch(e.target.value)}
+          />
+        <Button onClick={() => setCity(search)}>Get Weather</Button>
+      </div>
 
       {data && (
         <Pane
