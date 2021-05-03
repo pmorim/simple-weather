@@ -10,7 +10,7 @@ import { Button } from "evergreen-ui/commonjs/buttons";
 const margin = 16;
 
 // API variables
-const API_KEY = ""; // Insert your key here
+const API_KEY = ""; // ! Insert your key here
 const ICON_BASE_URL = "http://openweathermap.org/img/wn/";
 const DATA_BASE_URL = "http://api.openweathermap.org/data/2.5/weather";
 
