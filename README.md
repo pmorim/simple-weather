@@ -1,6 +1,6 @@
 # Simple Weather App
 
-A simple weather application made with React as an example/challenge for the SISTCA course. It consists of a simple TextField where the user can input the name of a city to get the current weather data.
+A simple weather application made with React as an example/challenge for the [SISTCA course](https://github.com/pmorim/sistca-react). It consists of a simple TextField where the user can input the name of a city to get the current weather data.
 
 ## The API
 
